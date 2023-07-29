@@ -20,7 +20,7 @@ public class Curso {
 		return carga_horaria;
 	}
 	public void setCarga_horaria(String carga_horaria) {
-		this.carga_horaria = carga_horaria;
+		this.carga_horaria = carga_horaria; 
 	}
 	@Override
 	public String toString() {

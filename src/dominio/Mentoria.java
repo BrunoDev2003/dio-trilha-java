@@ -20,7 +20,7 @@ public class Mentoria {
 		return cargaHoraria;
 	}
 	public void setCargaHoraria(int cargaHoraria) {
-		this.cargaHoraria = cargaHoraria;
+		this.cargaHoraria = cargaHoraria; 
 	}
 	@Override
 	public String toString() {
