@@ -3,7 +3,19 @@ package dominio;
 public class Curso {
 	private String titulo;
 	private String descricao;
-	private String carga_horaria;
+	private int carga_horaria;
+	
+	
+	
+	
+	public Curso() {
+		super();
+		
+	}
+	
+	public void Mentoria() {
+		
+	}
 	public String getTitulo() {
 		return titulo;
 	}
@@ -16,11 +28,11 @@ public class Curso {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
-	public String getCarga_horaria() {
+	public int getCarga_horaria() {
 		return carga_horaria;
 	}
-	public void setCarga_horaria(String carga_horaria) {
-		this.carga_horaria = carga_horaria; 
+	public void setCarga_horaria(int i) {
+		this.carga_horaria = i; 
 	}
 	@Override
 	public String toString() {

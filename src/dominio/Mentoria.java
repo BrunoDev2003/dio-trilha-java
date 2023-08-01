@@ -26,6 +26,10 @@ public class Mentoria {
 	public String toString() {
 		return "Mentoria [titulo=" + titulo + ", descricao=" + descricao + ", cargaHoraria=" + cargaHoraria + "]";
 	}
+	public void setCarga_horaria(int i) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 	
