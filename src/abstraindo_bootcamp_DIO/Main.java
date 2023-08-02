@@ -1,5 +1,6 @@
 package abstraindo_bootcamp_DIO;
 
+import dominio.Conteudo;
 import dominio.Curso;
 import dominio.Mentoria;
 
@@ -20,6 +21,8 @@ public class Main {
 		mentoria.setTitulo("curso C++");
 		mentoria.setDescricao("curso do C++");
 		mentoria.setCarga_horaria(8);
+		
+		
 		
 	}
 }
