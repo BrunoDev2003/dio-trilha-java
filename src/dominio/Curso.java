@@ -32,6 +32,6 @@ public class Curso extends Conteudo {
 		return "Curso [titulo=" + titulo + ", descricao=" + descricao + ", carga_horaria=" + carga_horaria + "]";
 	}
 
-	//13:44
+	
 	
 }
