@@ -25,7 +25,8 @@ public class dev {
 	}
 	}
 	//6:52
-	public void calcularXp() {
+	public double calcularXp() {
+		return this.conteudosConcluidos.stream().mapToDouble(conteudo -> conteudo.calcularXp()).sum();
 		
 	}
 
@@ -72,6 +73,6 @@ public class dev {
 	}
 	
 	
-	//07:31
+	
 	
 }
