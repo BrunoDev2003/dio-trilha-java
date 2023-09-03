@@ -3,6 +3,7 @@ package abstraindo_bootcamp_DIO;
 import dominio.Conteudo;
 import dominio.Curso;
 import dominio.Mentoria;
+import dominio.bootcamp;
 
 public class Main {
 	public static void main(String[] args) {
@@ -22,7 +23,10 @@ public class Main {
 		mentoria.setDescricao("curso do C++");
 		mentoria.setCarga_horaria(8);
 		
-		
+		bootcamp bootcamp = new bootcamp();
+		bootcamp.setNome("Javeiro");
+		bootcamp.setDescricao("Descrição Bootcamp Java Dev");
+		bootcamp.getConteudos().add(mentoria);
 		
 	}
 }
