@@ -4,6 +4,7 @@ import dominio.Conteudo;
 import dominio.Curso;
 import dominio.Mentoria;
 import dominio.bootcamp;
+import dominio.dev;
 
 public class Main {
 	public static void main(String[] args) {
@@ -27,6 +28,13 @@ public class Main {
 		bootcamp.setNome("Javeiro");
 		bootcamp.setDescricao("Descrição Bootcamp Java Dev");
 		bootcamp.getConteudos().add(mentoria);
+		bootcamp.getConteudos().add(curso1);
+		bootcamp.getConteudos().add(curso2);
 		
+		dev devBruno = new dev();
+		devBruno.setNome("Bruno");
+		devBruno.inscreverBootcamp(bootcamp);
+		System.out.print("Conteudos Inscritos Bruno" + devBruno.getConteudosInscritos());
+		devBruno.pregredir();
 	}
 }

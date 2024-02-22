@@ -29,5 +29,3 @@ public abstract class Conteudo {
 	
 	
 }
-
-//6:00
